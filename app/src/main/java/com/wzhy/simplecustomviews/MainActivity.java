@@ -31,12 +31,12 @@ public class MainActivity extends AppCompatActivity {
 //        mRoseDiagramView = (RoseDiagramView) findViewById(R.id.rdv);
 //        mRoseDiagramView .startDeployAnim();
 
-        ImageView mIvCanvasBmp = (ImageView) findViewById(R.id.iv_canvas_bmp);
+      /*  ImageView mIvCanvasBmp = (ImageView) findViewById(R.id.iv_canvas_bmp);
 
         Bitmap bitmap = Bitmap.createBitmap(100, 100, Bitmap.Config.ARGB_8888);
         Canvas canvas = new Canvas(bitmap);
         canvas.drawColor(Color.RED);
-        mIvCanvasBmp.setImageBitmap(bitmap);
+        mIvCanvasBmp.setImageBitmap(bitmap);*/
     }
 
     @Override

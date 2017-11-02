@@ -11,7 +11,6 @@ import android.graphics.Paint;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffXfermode;
 import android.graphics.Shader;
-import android.icu.text.MessagePattern;
 import android.util.AttributeSet;
 import android.view.View;
 
