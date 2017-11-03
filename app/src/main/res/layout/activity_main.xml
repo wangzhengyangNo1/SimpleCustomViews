@@ -113,7 +113,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />-->
 
-    <!--<com.wzhy.simplecustomviews.canvasstudy.CanvasView
+    <!--<com.wzhy.simplecustomviews.studycanvas.CanvasView
         android:layout_width="match_parent"
         android:layout_height="match_parent" />-->
 
@@ -121,8 +121,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />-->
 
-    <com.wzhy.simplecustomviews.studypath.WaveView
+    <!--<com.wzhy.simplecustomviews.studypath.WaveView
         android:layout_width="200dp"
-        android:layout_height="400dp" />
+        android:layout_height="400dp" />-->
+
+    <com.wzhy.simplecustomviews.studypath.PolylineView
+        android:id="@+id/pv"
+        android:layout_width="600dp"
+        android:layout_height="600dp" />
 
 </RelativeLayout>

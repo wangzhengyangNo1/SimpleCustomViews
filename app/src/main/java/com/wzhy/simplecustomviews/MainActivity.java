@@ -4,6 +4,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
+import android.graphics.PointF;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
@@ -12,6 +13,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.wzhy.simplecustomviews.rosediagram.RoseDiagramView;
+import com.wzhy.simplecustomviews.studypath.PolylineView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -37,6 +42,25 @@ public class MainActivity extends AppCompatActivity {
         Canvas canvas = new Canvas(bitmap);
         canvas.drawColor(Color.RED);
         mIvCanvasBmp.setImageBitmap(bitmap);*/
+
+
+
+        /*折线图*/
+        PolylineView mPv = (PolylineView) findViewById(R.id.pv);
+
+        List<PointF> pointFs = new ArrayList<PointF>();
+        pointFs.add(new PointF(0.3F, 0.5F));
+        pointFs.add(new PointF(1F, 2.7F));
+        pointFs.add(new PointF(2F, 3.5F));
+        pointFs.add(new PointF(3F, 3.2F));
+        pointFs.add(new PointF(4F, 1.8F));
+        pointFs.add(new PointF(5F, 1.5F));
+        pointFs.add(new PointF(6F, 2.2F));
+        pointFs.add(new PointF(7F, 5.5F));
+        pointFs.add(new PointF(8F, 7F));
+        pointFs.add(new PointF(8.6F, 5.7F));
+
+        mPv.setData(pointFs, "Money", "Time");
     }
 
     @Override

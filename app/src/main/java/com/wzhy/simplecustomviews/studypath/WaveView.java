@@ -8,7 +8,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
- * Created by Administrator on 2017-11-1 0001.
+ * Path.quadTo(), 二阶贝塞尔曲线的使用，简单的水波效果.
  */
 
 public class WaveView extends View {
