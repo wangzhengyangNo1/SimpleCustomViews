@@ -1,5 +1,7 @@
 package com.wzhy.simplecustomviews;
 
+import android.app.ActivityManager;
+import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
@@ -9,9 +11,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.wzhy.simplecustomviews.measure.ImgView;
 import com.wzhy.simplecustomviews.rosediagram.RoseDiagramView;
 import com.wzhy.simplecustomviews.studypath.PolylineView;
 
@@ -29,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         getSupportActionBar().hide();
 
+
 //        TextView textView = new TextView(this);
 //        textView.setLayerType(View.LAYER_TYPE_SOFTWARE, null);//关闭硬件
 
@@ -45,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        /*折线图*/
+        /*//折线图
         PolylineView mPv = (PolylineView) findViewById(R.id.pv);
 
         List<PointF> pointFs = new ArrayList<PointF>();
@@ -60,7 +66,12 @@ public class MainActivity extends AppCompatActivity {
         pointFs.add(new PointF(8F, 7F));
         pointFs.add(new PointF(8.6F, 5.7F));
 
-        mPv.setData(pointFs, "Money", "Time");
+        mPv.setData(pointFs, "Money", "Time");*/
+
+
+        //measure         ImgView
+        ImgView imgView = (ImgView) findViewById(R.id.img_view);
+        imgView.setBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.img_girl));
     }
 
     @Override

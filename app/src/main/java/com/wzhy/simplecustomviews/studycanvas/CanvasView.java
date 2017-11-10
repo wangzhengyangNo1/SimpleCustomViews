@@ -9,7 +9,10 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
- * Created by Administrator on 2017-11-1 0001.
+ * canvas：clipRect------矩形裁剪
+ *         intersect-----交集
+ *         union---------并集
+ *         clipPath------路径裁剪
  */
 
 public class CanvasView extends View {
