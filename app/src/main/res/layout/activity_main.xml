@@ -140,16 +140,15 @@
         android:layout_width="480dp"
         android:layout_height="720dp"
         />-->
-    
+
+<!--===============================================================================-->
 
 
-
-    <Button
+   <!-- <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="点我"
         />
-
 
     <LinearLayout
         android:layout_width="400dp"
@@ -164,8 +163,116 @@
             android:layout_marginTop="100dp"
             android:padding="30dp"
             android:background="#330000ff"/>
-
-
     </LinearLayout>
+-->
+
+<!--===============================================================================-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+    <!--<com.wzhy.simplecustomviews.measure.CustomLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--&gt;-->
+
+        <!--<com.wzhy.simplecustomviews.measure.IconView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="10dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginRight="30dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginBottom="5dp"-->
+            <!--/>-->
+
+
+
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="点我试试看"-->
+            <!--android:layout_marginLeft="6dp"-->
+            <!--android:layout_marginRight="15dp"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:layout_marginBottom="12dp"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="我是TextView"-->
+            <!--android:layout_marginLeft="24dp"-->
+            <!--android:layout_marginRight="16dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--/>-->
+    <!--</com.wzhy.simplecustomviews.measure.CustomLayout>-->
+
+
+    <!--</LinearLayout>-->
+
+
+    <com.wzhy.simplecustomviews.measure.SquareLayoutNew
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="20dp"
+        android:layout_gravity="center"
+        android:background="#679135"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#125793"
+            android:text="tomorrow"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="#495287"
+            android:text="wandryoung"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="23dp"
+            android:layout_marginBottom="49dp"
+            android:background="#489253"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_girl"
+            />
+
+
+       <!-- <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#597804"
+            android:text="wandryoung"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#947822"
+            android:text="wandryoung"/>-->
+
+
+    </com.wzhy.simplecustomviews.measure.SquareLayoutNew>
 
 </LinearLayout>

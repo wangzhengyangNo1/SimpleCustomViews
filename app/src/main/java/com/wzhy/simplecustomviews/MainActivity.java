@@ -34,14 +34,16 @@ public class MainActivity extends AppCompatActivity {
 
         getSupportActionBar().hide();
 
-
+//===============================================================================
 //        TextView textView = new TextView(this);
 //        textView.setLayerType(View.LAYER_TYPE_SOFTWARE, null);//关闭硬件
 
+//===============================================================================
 //        玫瑰图
 //        mRoseDiagramView = (RoseDiagramView) findViewById(R.id.rdv);
 //        mRoseDiagramView .startDeployAnim();
 
+//===============================================================================
       /*  ImageView mIvCanvasBmp = (ImageView) findViewById(R.id.iv_canvas_bmp);
 
         Bitmap bitmap = Bitmap.createBitmap(100, 100, Bitmap.Config.ARGB_8888);
@@ -49,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         canvas.drawColor(Color.RED);
         mIvCanvasBmp.setImageBitmap(bitmap);*/
 
-
+//===============================================================================
 
         /*//折线图
         PolylineView mPv = (PolylineView) findViewById(R.id.pv);
@@ -67,11 +69,14 @@ public class MainActivity extends AppCompatActivity {
         pointFs.add(new PointF(8.6F, 5.7F));
 
         mPv.setData(pointFs, "Money", "Time");*/
-
+//===============================================================================
 
         //measure         ImgView
-        ImgView imgView = (ImgView) findViewById(R.id.img_view);
-        imgView.setBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.img_girl));
+      /*  ImgView imgView = (ImgView) findViewById(R.id.img_view);
+        imgView.setBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.img_girl));*/
+
+//===============================================================================
+
     }
 
     @Override

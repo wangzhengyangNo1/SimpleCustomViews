@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    >
+
+    <TextView
+        android:id="@+id/tv_person_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:textSize="18sp"
+        android:text="aaa"
+        android:textColor="#fff"
+        android:background="#987"
+        android:padding="6dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_person_age"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:textSize="18sp"
+        android:text="17"
+        android:textColor="#cde"
+        android:padding="4dp"
+        android:background="#89a"
+        />
+
+</LinearLayout>
