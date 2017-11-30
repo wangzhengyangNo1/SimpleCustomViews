@@ -213,7 +213,9 @@
 
     <!--</LinearLayout>-->
 
+<!--===============================================================================-->
 
+<!--
     <com.wzhy.simplecustomviews.measure.SquareLayoutNew
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -260,7 +262,7 @@
             />
 
 
-       <!-- <Button
+       <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#597804"
@@ -270,9 +272,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#947822"
-            android:text="wandryoung"/>-->
+            android:text="wandryoung"/>
 
+    </com.wzhy.simplecustomviews.measure.SquareLayoutNew>-->
 
-    </com.wzhy.simplecustomviews.measure.SquareLayoutNew>
+   <!-- <com.wzhy.simplecustomviews.viewzlifecycle.LifeCycleView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#578890"
+        />-->
+<!--===============================================================================-->
+    <com.wzhy.simplecustomviews.compositeview.CompositeView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
 
 </LinearLayout>

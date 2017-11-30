@@ -10,15 +10,18 @@ import android.graphics.PointF;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.wzhy.simplecustomviews.measure.ImgView;
 import com.wzhy.simplecustomviews.rosediagram.RoseDiagramView;
 import com.wzhy.simplecustomviews.studypath.PolylineView;
+import com.wzhy.simplecustomviews.viewzlifecycle.LifeCycleView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -74,6 +77,12 @@ public class MainActivity extends AppCompatActivity {
         //measure         ImgView
       /*  ImgView imgView = (ImgView) findViewById(R.id.img_view);
         imgView.setBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.img_girl));*/
+
+//===============================================================================
+
+     /*   LifeCycleView lifeCycleView = new LifeCycleView(this);
+        lifeCycleView.setBackgroundColor(0x346893);
+        addContentView(lifeCycleView, new LinearLayout.LayoutParams(100, 100));*/
 
 //===============================================================================
 
